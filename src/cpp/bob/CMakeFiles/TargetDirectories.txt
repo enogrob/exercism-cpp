@@ -1,0 +1,3 @@
+/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/CMakeFiles/bob.dir
+/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/CMakeFiles/ALL_BUILD.dir
+/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/CMakeFiles/ZERO_CHECK.dir

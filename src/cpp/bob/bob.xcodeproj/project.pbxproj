@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		00EAF5F5B87D434DA20097EE /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 48C2D47D66AD43AB8364CFCA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				33CD066E112244678440A7F5 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		18384DDB54234BA88E5DF334 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9B6C8424DC0945FFACB212DA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				DC2F30AF19104E2E8FAF63E7 /* CMake Rules */,
+			);
+			dependencies = (
+				F0B6B8769C7B46E198A5C1AD /* PBXTargetDependency */,
+				B377CFAE699A4216980B6F9D /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5226CAE9521D46B8B2648A11 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/bob_test.cpp */ = {isa = PBXBuildFile; fileRef = B70E47E7524A4752B101F3F8 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/bob_test.cpp */; };
+		721A8206A7D34D188BDB9B54 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/bob.cpp */ = {isa = PBXBuildFile; fileRef = 262F5B2E05B0444AA271D5B8 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/bob.cpp */; };
+		A555A1E5222F4FC7887AE713 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CD2AB2DF06874561A29CAC8A /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/CMakeLists.txt */; };
+		FB4397C1BFFF430CB20F718A /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/bob.h */ = {isa = PBXBuildFile; fileRef = 767DCD1F72D94064AEDF6ED0 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/bob.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1178D7CA82114272B3CDC35E /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		3A45ACE6A6E542AFB12E7C93 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		C233BAAC1EA14845AAF8BD2B /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		D604115D0FF346EF915BCE52 = {
+			isa = PBXBuildStyle;
+		};
+		DDD81F43E38D40999D45EA3A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		24D45C06A83244BF8571B56D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AAAA647919943A7A9E804C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 298D60CAC582493CBE92FCAE;
+			remoteInfo = bob;
+		};
+		8E1F5E7A002148FCB0F57FED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AAAA647919943A7A9E804C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00EAF5F5B87D434DA20097EE;
+			remoteInfo = ZERO_CHECK;
+		};
+		A0E440ECA61B42ABB5CCF171 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AAAA647919943A7A9E804C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00EAF5F5B87D434DA20097EE;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EFBDCE876BD4C88B6D9FEF9 /* bob */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = bob; sourceTree = BUILT_PRODUCTS_DIR; };
+		262F5B2E05B0444AA271D5B8 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/bob.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bob.cpp; path = bob.cpp; sourceTree = SOURCE_ROOT; };
+		4BFCA199C41541DA81A72B85 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5EA30FD8221B42159A516419 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		767DCD1F72D94064AEDF6ED0 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/bob.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = bob.h; path = bob.h; sourceTree = SOURCE_ROOT; };
+		B70E47E7524A4752B101F3F8 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/bob_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = bob_test.cpp; path = bob_test.cpp; sourceTree = SOURCE_ROOT; };
+		CD2AB2DF06874561A29CAC8A /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0932B2B1EA31412D817DAEB6 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				66C0FF0D64BD45B18A1A93FA /* bob */,
+				F06F2B1D3DA04692BBC224BA /* ALL_BUILD */,
+				BC16790184534254AE609308 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		3722E8DB44B14A78B6823B5D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		3B8B84C4D87A44DA938831CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3CF9ADB487EE4BBCA937C090 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EFBDCE876BD4C88B6D9FEF9 /* bob */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		470600F2EE6C43F887F6DDDE /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				262F5B2E05B0444AA271D5B8 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/bob.cpp */,
+				B70E47E7524A4752B101F3F8 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/bob_test.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		66C0FF0D64BD45B18A1A93FA /* bob */ = {
+			isa = PBXGroup;
+			children = (
+				470600F2EE6C43F887F6DDDE /* Source Files */,
+				768F1E4F905C432A983158C2 /* Header Files */,
+				CD2AB2DF06874561A29CAC8A /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/CMakeLists.txt */,
+			);
+			name = bob;
+			sourceTree = "<group>";
+		};
+		70FEB4BB3ACB40E28EC0C9DF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		768F1E4F905C432A983158C2 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				767DCD1F72D94064AEDF6ED0 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/bob.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		BC16790184534254AE609308 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				3722E8DB44B14A78B6823B5D /* CMake Rules */,
+				4BFCA199C41541DA81A72B85 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		F06F2B1D3DA04692BBC224BA /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				70FEB4BB3ACB40E28EC0C9DF /* CMake Rules */,
+				5EA30FD8221B42159A516419 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		F2481C5DD0244C40B34FB6A0 = {
+			isa = PBXGroup;
+			children = (
+				0932B2B1EA31412D817DAEB6 /* Sources */,
+				3B8B84C4D87A44DA938831CC /* Resources */,
+				3CF9ADB487EE4BBCA937C090 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		298D60CAC582493CBE92FCAE /* bob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C1DD040EC3D4B908268A0C9 /* Build configuration list for PBXNativeTarget "bob" */;
+			buildPhases = (
+				13E3B9976823474AA93469DA /* Sources */,
+				66D42598E8014C84B12A0A37 /* CMake PostBuild Rules */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A034285C66246C18FFB4274 /* PBXTargetDependency */,
+			);
+			name = bob;
+			productName = bob;
+			productReference = 0EFBDCE876BD4C88B6D9FEF9 /* bob */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AAAA647919943A7A9E804C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0820;
+			};
+			buildConfigurationList = B7A6252257FF401686FC787D /* Build configuration list for PBXProject "bob" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C233BAAC1EA14845AAF8BD2B /* Debug */,
+				DDD81F43E38D40999D45EA3A /* Release */,
+				3A45ACE6A6E542AFB12E7C93 /* MinSizeRel */,
+				1178D7CA82114272B3CDC35E /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F2481C5DD0244C40B34FB6A0;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				18384DDB54234BA88E5DF334 /* ALL_BUILD */,
+				00EAF5F5B87D434DA20097EE /* ZERO_CHECK */,
+				298D60CAC582493CBE92FCAE /* bob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33CD066E112244678440A7F5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob -f /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		66D42598E8014C84B12A0A37 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob -f /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/CMakeScripts/bob_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		739639E45CF0417E8F563D72 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		938929E52BF841DFA3436EA3 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		DC2F30AF19104E2E8FAF63E7 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob -f /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13E3B9976823474AA93469DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721A8206A7D34D188BDB9B54 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/bob.cpp */,
+				5226CAE9521D46B8B2648A11 /* /Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/bob_test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A034285C66246C18FFB4274 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00EAF5F5B87D434DA20097EE /* ZERO_CHECK */;
+			targetProxy = A0E440ECA61B42ABB5CCF171 /* PBXContainerItemProxy */;
+		};
+		B377CFAE699A4216980B6F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00EAF5F5B87D434DA20097EE /* ZERO_CHECK */;
+			targetProxy = 8E1F5E7A002148FCB0F57FED /* PBXContainerItemProxy */;
+		};
+		F0B6B8769C7B46E198A5C1AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 298D60CAC582493CBE92FCAE /* bob */;
+			targetProxy = 24D45C06A83244BF8571B56D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		21347D66030448E8A62E6EFD /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		32B3CAF4D70F411192F5E5DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		45EBCB63923444B083657FA4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4C8CA13C9555480F8FB88CC1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11        -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bob;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4D97ECAC5B20455685278CF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11     ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bob;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5CC8CFDA9A444D4181D7C69F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/build";
+			};
+			name = RelWithDebInfo;
+		};
+		72B4671991284B4EBCB4DD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/build";
+			};
+			name = Debug;
+		};
+		73A4D9F92F1147A6B357CE9D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7D9758CE28884BEF88033518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bob;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8DD2DE96778F4606A3016971 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/build";
+			};
+			name = MinSizeRel;
+		};
+		9AB104CBF8F847BA8F2D304B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "-std=c++11     -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = bob;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B61F9F9377834BA3AB3BA977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C56D003940C341CDB465DB56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C688E0B12D7645529DDFD6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob/build";
+			};
+			name = Release;
+		};
+		EB515CD5AC4A4D50BF8E9436 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F633074A292B4B35BFDBCACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/enogrob/Things/Projects/tutorial-exercism/src/cpp/bob";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48C2D47D66AD43AB8364CFCA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61F9F9377834BA3AB3BA977 /* Debug */,
+				C56D003940C341CDB465DB56 /* Release */,
+				21347D66030448E8A62E6EFD /* MinSizeRel */,
+				EB515CD5AC4A4D50BF8E9436 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6C1DD040EC3D4B908268A0C9 /* Build configuration list for PBXNativeTarget "bob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D97ECAC5B20455685278CF0 /* Debug */,
+				7D9758CE28884BEF88033518 /* Release */,
+				9AB104CBF8F847BA8F2D304B /* MinSizeRel */,
+				4C8CA13C9555480F8FB88CC1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9B6C8424DC0945FFACB212DA /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B3CAF4D70F411192F5E5DF /* Debug */,
+				F633074A292B4B35BFDBCACB /* Release */,
+				73A4D9F92F1147A6B357CE9D /* MinSizeRel */,
+				45EBCB63923444B083657FA4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B7A6252257FF401686FC787D /* Build configuration list for PBXProject "bob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72B4671991284B4EBCB4DD89 /* Debug */,
+				C688E0B12D7645529DDFD6E7 /* Release */,
+				8DD2DE96778F4606A3016971 /* MinSizeRel */,
+				5CC8CFDA9A444D4181D7C69F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AAAA647919943A7A9E804C0 /* Project object */;
+}
